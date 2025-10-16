@@ -24,7 +24,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 96
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "y length",
@@ -41,7 +42,8 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 0.75
+          "ioValue": 0.5,
+          "currentEquation": "0.5"
         }
       ]
     },
@@ -139,7 +141,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "extrude-bb745cc71c38d56e0cb36490364153634afae2fa8cf24842736d81118c3d74d7",
+            "geometry": "extrude-b52129fb817b41c8c0779664156294adca65c4bfdef2e951033377a468095aa9",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -1435,7 +1437,12 @@
       "x": 0.3635416666666667,
       "y": 0.44651162790697674,
       "uniqueID": "d715f707-a217-40db-8c5d-467edca132e3",
-      "ioValues": [],
+      "ioValues": [
+        {
+          "name": "Input (1)",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -1664,7 +1671,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.75
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1789,6 +1797,15 @@
           ],
           "fileTypeVersion": 1,
           "compiledBom": []
+        },
+        {
+          "atomType": "Input",
+          "name": "Input (1)",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "4263e3e5-4830-412e-846f-210a79b076cd",
+          "ioValues": [],
+          "type": "geometry"
         }
       ],
       "allConnectors": [
